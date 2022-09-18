@@ -42,13 +42,14 @@
     font-weight: 500;
 }
 .navbar-nav a:hover{
-    color: #FFD800;
+    color: red;
+    transform: scale(1.1);
 }
 .navbar-light .navbar-brand{
     color: #000;
     font-size: 1.6rem;
     font-weight: 700;
-    letter-spacing: 5px;
+    letter-spacing: 3px;
 }
 .about-img{
     padding-top: 2rem;
