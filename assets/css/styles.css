@@ -11859,16 +11859,20 @@ textarea.form-control-lg {
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .carousel-caption {
-    bottom: 300px;
+    bottom: 20rem;
   }
 
   .carousel-caption p {
     width: 100%;
   }
 }
-@media only screen and (max-width: 767px) {
+@media only screen and (min-width: 381px) and (max-width: 767px) {
   .navbar-nav {
     text-align: center;
+  }
+
+  .carousel-caption {
+    bottom: 15rem;
   }
 
   .carousel-caption h5, .carousel-caption .h5 {
@@ -11886,7 +11890,32 @@ textarea.form-control-lg {
     font-size: 1.1rem;
   }
 
+  .about-text a {
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}
+@media only screen and (max-width: 380px) {
+  .navbar-nav {
+    text-align: center;
+  }
+
   .carousel-caption {
-    bottom: 300px;
+    bottom: 11rem;
+  }
+
+  .carousel-caption h5, .carousel-caption .h5 {
+    font-size: 1.5rem;
+  }
+
+  .carousel-caption p {
+    width: 100%;
+    line-height: 1.2;
+    font-size: 1rem;
+  }
+
+  .about-text a {
+    margin-left: 50%;
+    transform: translateX(-50%);
   }
 }
